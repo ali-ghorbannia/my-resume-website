@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./images/favicon.ico" />
+  <meta name="description"
+    content="I'm Ali Ghorbannia. Frontend Developer / Web Designer. I love building landing pages and interfaces using modern technologies and I'm always focused on delivering projects with quality and agility.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- ---------------- google font -------------------- -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin&family=Nova+Square&family=Righteous&display=swap"
+    rel="stylesheet">
+  <!-- ---------------- google font -------------------- -->
+
+  <link rel="stylesheet" href="style.css">
+  <title>Ali Ghorbannia</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <div class="logo">
+          <span><a href="#">AG</a></span>
+        </div>
+        <ul class="nav-menu" role="list">
+          <li><a href="#work">Works</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu">
+          <button class="menu-btn" onclick="toggleMenu()"><img src="/images/icon-hamburger.svg"></button>
+          <button class="menu-close-btn" onclick="closeMenu()"><img src="/images/icon-close.svg"></button>
+        </div>
+      </nav>
+
+    </header>
+    <main>
+      <!-- -------------------- Hero  --------------------   -->
+      <article>
+        <div class="header-text">
+          Hi, my name is
+          <h1>Ali Ghorbannia</h1>
+          <h2>Frontend Developer / Web Designer</h2>
+          I love building landing pages and interfaces using modern technologies and I'm always focused on delivering
+          projects with quality and agility.
+          <div id="get-in-touch">
+            <a class="btn" href="#contact">Get in Touch</a>
+          </div>
+          <div id="socials">
+            <span><a href="https://github.com/ali-ghorbannia"><img src="./images/icons8-github.svg" alt="github"
+                  title="Github"></a></span>
+            <span><a href="#"><img src="./images/icons8-linkedin.svg" alt="Linkedin" title="Linkedin"></a></span>
+          </div>
+        </div>
+      </article>
+      <!-- -------------------- Tools  --------------------   -->
+      <section>
+        <div class="sections-container">
+          <div class="sections-title">
+            <h2 class="titles">Tools I like to use</h2>
+          </div>
+          <div class="tools">
+            <div class="tool"><img src="./images/icons8-html5.svg" alt="html5" />HTML5</div>
+            <div class="tool"><img src="./images/icons8-css3.svg" alt="css3" />CSS3</div>
+            <div class="tool"><img src="./images/icons8-javascript.svg" alt="javascript" />JavaScript</div>
+            <div class="tool"><img src="./images/icons8-figma.svg" alt="figma" />Figma</div>
+
+          </div>
+        </div>
+      </section>
+      <!-- -------------------- Works  --------------------   -->
+      <section id="work">
+        <div class="sections-container">
+          <div class="sections-title">
+            <h2 class="titles">Works</h2>
+          </div>
+          <article class="work">
+            <div class="work-info">
+              <h3 class="work-info-title">Snap Intro Section</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores ab modi qui fugiat omnis enim
+                corrupti? Deleniti?</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum optio, porro corporis cumque itaque
+                tenetur accusamus obcaecati molestiae officia suscipit.</p>
+              <div class="work-info-container">
+                <span class="work-info-tech">HTML5</span>
+                <span class="work-info-tech">CSS3</span>
+                <span class="work-info-tech">JavaScript</span>
+              </div>
+            </div>
+            <div class="work-image">
+              <a href="https://intro-section-with-dropdown-navigation-front-the9ights-projects.vercel.app/"
+                target="_blank"><img src="./images/intro-section-desktop-design.jpg" alt=""></a>
+            </div>
+          </article>
+          <article class="work reverse">
+            <div class="work-image">
+              <a href="https://news-homepage-challenge-on-frontend-mentor.vercel.app/" target="_blank"><img
+                  src="./images/news-desktop-design.jpg" alt=""></a>
+            </div>
+            <div class="work-info">
+              <h3 class="work-info-title">News HomePage</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores ab modi qui fugiat omnis enim
+                corrupti? Deleniti?</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum optio, porro corporis cumque itaque
+                tenetur accusamus obcaecati molestiae officia suscipit.</p>
+              <div class="work-info-container">
+                <span class="work-info-tech">HTML5</span>
+                <span class="work-info-tech">CSS3</span>
+                <span class="work-info-tech">JavaScript</span>
+              </div>
+            </div>
+
+          </article>
+          <article class="work">
+            <div class="work-info">
+              <h3 class="work-info-title">Quiz Result Preview Card</h3>
+
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores ab modi qui fugiat omnis enim
+                corrupti? Deleniti?</p>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum optio, porro corporis cumque itaque
+                tenetur accusamus obcaecati molestiae officia suscipit.</p>
+              <div class="work-info-container">
+                <span class="work-info-tech">HTML5</span>
+                <span class="work-info-tech">CSS3</span>
+                <span class="work-info-tech">JavaScript</span>
+              </div>
+            </div>
+            <div class="work-image">
+              <a href="#" target="_blank"><img src="./images/result-summary-desktop-design.jpg" alt=""></a>
+            </div>
+          </article>
+        </div>
+      </section>
+      <!-- -------------------- about me  --------------------   -->
+
+      <section id="about">
+        <div class="sections-container">
+          <div class="sections-title">
+            <h2 class="titles">About Me</h2>
+          </div>
+          <div class="about-me-info">
+            <h4>I love developing websites</h4>
+            <p>I'm a frontend developer who loves studying web development and build websites</p>
+
+            <p>My main skill is converting static website designs into beautiful and optimized websites. I love giving
+              life to a good design.</p>
+
+            <p>I love a challenge and I'm always ready to learn something new if it is needed to deliver what you want!
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- -------------------- contact me  --------------------   -->
+
+      <section>
+        <div class="sections-container center">
+
+          <div class="contact-me-info" id="contact">
+            <h4>Get in Touch</h4>
+            <p>If you think I'm the right fit for your project, let me know. Send a message and I will respond to you as
+              soon as possible.</p>
+
+            <p><span>I'm always excited for new work!</span></p>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form action="https://formsubmit.co/dcf3d4bf0a25067ef93c11cf98ce1cb8" method="POST">
+            <div class="contact-name-container">
+              <input type="text" id="name" name="name" placeholder="Ali Ghorbannia" required>
+            </div>
+            <div class="contact-email-container">
+              <input type="text" id="email" name="email" placeholder="Your-Email@email.com" required>
+            </div>
+            <div class="contact-message-container">
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Hey!, I have Job for you."
+                required></textarea>
+            </div>
+            <div class="contact-button-container">
+              <button type="submit" class="btn">Get in Touch</button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
